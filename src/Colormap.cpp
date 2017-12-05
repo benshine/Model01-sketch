@@ -28,7 +28,7 @@ namespace algernon {
 namespace Colormap {
 
 void configure(void) {
-  Kaleidoscope.use(&ColormapEffect);
+  // Kaleidoscope.use(&ColormapEffect); // @algernon thinks this is breaking things
 
   ColormapEffect.max_layers(LAYER_MAX - 2);
   ColormapEffect.activate();
